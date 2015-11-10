@@ -1,0 +1,40 @@
+
+
+body{
+  text-align: center;
+
+}
+
+
+.inputarea, .outputarea{
+border: 1px solid red;
+  display:inline-block;
+  height:400px;
+  width:45%;
+  font-size: 2em;
+  float:left;
+}
+/*.outputarea{
+  border: 1px solid red;
+  display:inline-block;
+  font-size: 2em;
+  height:400px;
+  width:45%;
+}*/
+
+.container{margin: 0px auto;}
+
+div.inputLabel{
+  float:left;
+    display:inline-block;
+  height:150px;
+  width:45%;
+  font-size: 2em;
+}
+div.outputLabel{
+  float:left;
+  display:inline-block;
+  font-size: 2em;
+  height:150px;
+  width:45%;
+}

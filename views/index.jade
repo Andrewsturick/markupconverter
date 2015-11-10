@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    link(href='css/style.css' rel='stylesheet')
+  body
+  
+    div.container
+    h1 Welcome to the markup converter!!!
+    div.inputLabel input markup here!
+    div.outputLabel here's your html output!
+      br
+      button(type="submit") render!
+    form(name="input-to-output", method="post")
+      textarea(name="input", class="inputarea",cols="40", rows="40")
+      div.outputarea
+    
+    script(src='https://code.jquery.com/jquery-2.1.4.min.js')
+    script(src='js/main.js')
+
+
+
+/////////////////////////////////
